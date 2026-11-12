@@ -2,30 +2,30 @@
 class Marquee < Formula
   desc "Markdown toolkit for the terminal: lint, format, query, transform and render"
   homepage "https://github.com/mtrense/marquee"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/mtrense/marquee/releases/download/v0.2.0/mrq-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ae9d2e8fc95da53004900319a892ae09396d709ca0de0051db4d601c2facb7c6"
+      url "https://github.com/mtrense/marquee/releases/download/v0.2.1/mrq-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "23567abcc5df1c554a810d9b4160622d1e2b240298d7378b21e1481005cd83a5"
     end
 
     on_intel do
-      url "https://github.com/mtrense/marquee/releases/download/v0.2.0/mrq-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "22e4dec9435fe207f955f052f941cab9246d47fffb44f274a1ccab524f0dc91e"
+      url "https://github.com/mtrense/marquee/releases/download/v0.2.1/mrq-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3a290285ae82a4a09ebe884c3235ace7c00280dc35bae1978c3f5571a9cc2e8c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mtrense/marquee/releases/download/v0.2.0/mrq-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6fb9438f6b2f926810ce1cf4e6a18ad8f2b8eda5a1dc49c5ab648f775f39b18c"
+      url "https://github.com/mtrense/marquee/releases/download/v0.2.1/mrq-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cd90d83c13ad2e660d84e2bec1cc81d67aff5349b9569ed780249b80ee39a17b"
     end
 
     on_intel do
-      url "https://github.com/mtrense/marquee/releases/download/v0.2.0/mrq-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6c8c6b09f1629718887f4f1ba3f8faf03fe01a1c53f78b9f526e1fc0b09304a6"
+      url "https://github.com/mtrense/marquee/releases/download/v0.2.1/mrq-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ddbaa455d40eac173e8048d7942b0bb05556bbbb5ac4ab426f4f94191cef6904"
     end
   end
 
